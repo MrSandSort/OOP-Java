@@ -1,4 +1,4 @@
-package Practice;
+package Practice.String;
 
 public class stringTitle {
     public static void main(String[] args) {

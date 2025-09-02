@@ -1,4 +1,4 @@
-package Practice;
+package Practice.String;
 
 public class reverseString {
     public static void main(String[] args) {
@@ -16,4 +16,8 @@ public class reverseString {
         return reversed.toString();
     }
 }
+
+// String Builder is a mutable sequence of characters. 
+// It is used to create and manipulate strings efficiently, especially when performing multiple modifications, 
+// such as appending, inserting, or deleting characters. Unlike the String class, which creates a new object for every modification (since Strings are immutable), StringBuilder allows for in-place modifications, making it more memory and performance efficient for scenarios involving frequent changes to string data.
 
