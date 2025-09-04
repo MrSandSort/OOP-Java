@@ -5,7 +5,6 @@ public class validatePassComplex {
 
         String srt="Hell0n";
         System.out.println("The given string is complex: "+ checkForComplex(srt));
-
     }
 
     public static boolean checkForComplex(String str)
