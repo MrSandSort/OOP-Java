@@ -27,4 +27,5 @@ public class rotateAnArray {
 
 // rotate--> [3,2,1,9,4] = output
 
-// search for last position in array and update the value there
+// 1,2,3,4
+
