@@ -18,3 +18,4 @@ public class checkUppercase {
     // allMatch and noneMatch --> checks and return boolean
 }
 
+// s.chars --> bujhnai parne function
