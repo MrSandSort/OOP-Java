@@ -10,10 +10,12 @@ public class LongestCommonPrefix {
     }
 
 
-
     // common prefix check --> check for array length if null or zero return empty prefix
     // Then set, the first index at array as prefix
-    // then match if prefix 
+    // then match if prefix matches the indexOf current running array index
+    // if it doesn't match the loop runs again and decrease the prefix length
+    // it goes and goes unless it matches the string ..if string reached and isEmpty it will return empty string
+    // Then, finally on matching prefix is returned
 
     public static String CommonPrefix(String[] args){
         if(args== null || args.length==0){
